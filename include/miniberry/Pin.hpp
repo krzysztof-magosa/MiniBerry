@@ -45,7 +45,7 @@ namespace miniberry {
         }
         
     protected:
-        Port port;
+        Port& port;
         int const no;
     };
 

@@ -34,7 +34,7 @@ namespace miniberry {
         }
 
     protected:
-        Pin ss;
+        Pin& ss;
     };
 
 }
